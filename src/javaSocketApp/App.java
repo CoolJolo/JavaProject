@@ -1,3 +1,7 @@
+package javaSocketApp;
+import javaSocketApp.gui.WindowClass;
+import javaSocketApp.server.ServerClass;
+
 // Java App, which manage everything
 public class App {
     public static void main(String[] args) {
