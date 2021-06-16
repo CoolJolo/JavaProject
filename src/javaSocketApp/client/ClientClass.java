@@ -1,21 +1,11 @@
+package javaSocketApp.client;
 import java.io.*;
 import java.net.*;
 import java.util.*;
 
-// code involves: 
-//	1. Establish a Socket Connection
-//	2. Communication
-
-// Client class
-class Client {
-	
-	// driver code
-	public static void main(String[] args)
-	{
-		// establish a connection by providing host and port
-		int port = 1337;
-		// number
-		try (Socket socket = new Socket("localhost", port)) {
+public class ClientClass {
+    public void clientConstructor(int port){
+        try (Socket socket = new Socket("localhost", port)) {
 			
 			// writing to server
 			PrintWriter out = new PrintWriter(
@@ -50,5 +40,5 @@ class Client {
 		catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
+    }
 }
