@@ -16,12 +16,13 @@ public class ServerClass {
 
     private ServerSocket server = null;
 
+	// constructor
     public void serverConstructor(int port, WindowClass window){
         
         try {
             server = new ServerSocket(port);
             server.setReuseAddress(true);
-            System.out.println("... server started and is accessable under: " + server.getLocalSocketAddress());
+            System.out.println("... server started and is accessable under: " + server.getLocalSocketAddress()); // !issue -> returns 0.0.0.0/0.0.0.0
 
             // running infinite loop for getting client request
             while (true) {

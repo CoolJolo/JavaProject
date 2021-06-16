@@ -15,10 +15,12 @@ public class App {
         if (server != null) {
             System.out.println("Server exist!");
         } else {
-            // to add: when "StartSession"-Button in Window-Object pressed, start Server-Object
+            // to add: when "StartSession"-Button in Window-Object pressed, create Server-Object
             System.out.println("Server was created!");
             server = new ServerClass();
             server.serverConstructor(1337, window);
         }
     }
+
+    
 }
