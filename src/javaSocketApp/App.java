@@ -10,9 +10,12 @@ public class App {
 
         ServerClass server = null;
 
+        // only start server/session when server not already locally exist
+        // not work properly
         if (server != null) {
             System.out.println("Server exist!");
         } else {
+            // to add: when "StartSession"-Button in Window-Object pressed, start Server-Object
             System.out.println("Server was created!");
             server = new ServerClass();
             server.serverConstructor(1337, window);
