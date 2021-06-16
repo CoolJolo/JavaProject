@@ -1,2 +1,50 @@
 # JavaSocketApp
 Java socketserver app 
+
+
+current state:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Java Socket_Server: structur:
+
