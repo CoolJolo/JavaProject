@@ -5,49 +5,7 @@ Java socketserver app
 
 current state:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Java Socket_Server: structur:
+Java Socket_Server:
 =======
 Current Status: Start App.java to run Serverapp, Client needs to start Client.java 
 
