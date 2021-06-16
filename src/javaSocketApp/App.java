@@ -6,7 +6,7 @@ import javaSocketApp.server.ServerClass;
 public class App {
     public static void main(String[] args) {
         WindowClass window = new WindowClass();
-	    window.windowConstructor("first", "Actions:");
+	    window.windowConstructor("first", "Actions:", this);
 
         ServerClass server = null;
 
@@ -16,11 +16,11 @@ public class App {
             System.out.println("Server exist!");
         } else {
             // to add: when "StartSession"-Button in Window-Object pressed, create Server-Object
-            System.out.println("Server was created!");
             server = new ServerClass();
             server.serverConstructor(1337, window);
+            System.out.println("Server was created!");
         }
     }
 
-    
+
 }

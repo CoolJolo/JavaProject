@@ -31,7 +31,7 @@ public class WindowClass extends JFrame implements ActionListener{
     JPanel jPanel;
 
     // constructor -> export into other script
-    public void windowConstructor(String windowType, String labelContent){
+    public void windowConstructor(String windowType, String labelContent, Class app){
 
         if (windowType.equals("first")){
             setTitle("Just a Window!");
