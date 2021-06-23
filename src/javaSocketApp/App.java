@@ -2,7 +2,6 @@ package javaSocketApp;
 import javaSocketApp.gui.WindowClass;
 import javaSocketApp.server.ServerClass;
 
-// LUL
 
 // Java App, which manage everything
 public class App {
